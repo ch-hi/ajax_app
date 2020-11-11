@@ -1,4 +1,14 @@
-function check() {
+// function check (){
+//   const posts = document.querySelectorAll(".post");
+//   posts.forEach(function (post) {});
+// } //checkという名前で関数定義（DOMの取得、エンドポイントへのリクエストはこの関数へ記述する）
+// window.addEventListener("load", check); //イベント発火コード
+// 2回目復習途中
+
+
+
+// 1回目コメントアウト
+function check() {/* checkという関数定義 */
   console.log("test")
   const posts = document.querySelectorAll(".post");
   posts.forEach(function(post){
